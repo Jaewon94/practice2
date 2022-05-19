@@ -1,0 +1,33 @@
+body {
+  background-color: ivory;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  width: 165px;
+  height: 58px;
+}
+.menu {
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+.link {
+    margin-right: 10px;
+  margin-right: 10px;
+  color: #58595b;
+  text-decoration: none;
+}
+/* 링크들을 따로 클래스로 감싸지 않아도 
+#menu a <-같은 식으로 하면 같은 효과 */
+.images {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
